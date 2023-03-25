@@ -1,0 +1,236 @@
+Scene: Example Scene
+Entities List:
+  - EntityID: 4696172365485179651
+    TagComponent:
+      Tag: Platform
+    TransformComponent:
+      Position: [10.2441597, -1.1954298, -0.089969635]
+      Rotation: [0, -0, 30.6781693]
+      Scale: [15.0116692, 1, 1]
+    SpriteRendererComponent:
+      Color: [0.662962973, 0.0834842473, 0.521312654, 1]
+      TilingFactor: 1
+    RigidBody2DComponent:
+      RigidBody2DType: Static
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Size: [0.5, 0.5]
+      Offset: [0, 0]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.5
+      RestitutionThreshold: 0.5
+  - EntityID: 17113783425022072648
+    TagComponent:
+      Tag: Player
+    TransformComponent:
+      Position: [8.16796398, 0.861429214, 0.00511932373]
+      Rotation: [0, -0, -167.236755]
+      Scale: [0.999969363, 0.999969363, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TexturePath: assets\Editor\imagefile.png
+      TilingFactor: 1
+    RigidBody2DComponent:
+      RigidBody2DType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Size: [0.5, 0.5]
+      Offset: [0, 0]
+      Density: 1
+      Friction: 0.519999981
+      Restitution: 0.5
+      RestitutionThreshold: 0.5
+  - EntityID: 4336208593980768067
+    TagComponent:
+      Tag: Player
+    TransformComponent:
+      Position: [-1.54432797, 2.1144104, 0.00511932373]
+      Rotation: [0, -0, -167.236755]
+      Scale: [0.999969363, 0.999969363, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TexturePath: assets\Editor\fontfile.png
+      TilingFactor: 1
+    RigidBody2DComponent:
+      RigidBody2DType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Size: [0.5, 0.5]
+      Offset: [0, 0]
+      Density: 1
+      Friction: 0.519999981
+      Restitution: 0.5
+      RestitutionThreshold: 0.5
+  - EntityID: 10838223262016351396
+    TagComponent:
+      Tag: Player
+    TransformComponent:
+      Position: [-4.37423229, 4.77742958, 0.00511932373]
+      Rotation: [0, -0, -167.236755]
+      Scale: [0.999969363, 0.999969363, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TexturePath: assets\Editor\file.png
+      TilingFactor: 1
+    RigidBody2DComponent:
+      RigidBody2DType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Size: [0.5, 0.5]
+      Offset: [0, 0]
+      Density: 1
+      Friction: 0.519999981
+      Restitution: 0.5
+      RestitutionThreshold: 0.5
+  - EntityID: 11852440795480156981
+    TagComponent:
+      Tag: Player
+    TransformComponent:
+      Position: [-2.58864164, 3.39589477, 0.0243797321]
+      Rotation: [0, -0, -167.236755]
+      Scale: [0.999969363, 0.999969363, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TexturePath: assets\Editor\folder.png
+      TilingFactor: 1
+    RigidBody2DComponent:
+      RigidBody2DType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Size: [0.5, 0.5]
+      Offset: [0, 0]
+      Density: 1
+      Friction: 0.519999981
+      Restitution: 0.5
+      RestitutionThreshold: 0.5
+  - EntityID: 4826281952320451027
+    TagComponent:
+      Tag: Platform
+    TransformComponent:
+      Position: [-5.187819, 1.9050957, 0]
+      Rotation: [0, -0, -37.9256325]
+      Scale: [14.9911823, 0.99999994, 1]
+    SpriteRendererComponent:
+      Color: [0.00351166888, 0.948148131, 0.906164169, 1]
+      TilingFactor: 1
+    RigidBody2DComponent:
+      RigidBody2DType: Static
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Size: [0.5, 0.5]
+      Offset: [0, 0]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.5
+      RestitutionThreshold: 0.5
+  - EntityID: 3
+    TagComponent:
+      Tag: BackGround
+    TransformComponent:
+      Position: [0.566320419, -1.33687782, -20.4549065]
+      Rotation: [0, -0, 0]
+      Scale: [75.7437363, 50.7884712, 1]
+    SpriteRendererComponent:
+      Color: [0.137037039, 0.137037039, 0.137037039, 1]
+      TilingFactor: 1
+  - EntityID: 2
+    TagComponent:
+      Tag: Camera
+    TransformComponent:
+      Position: [1.38075399, -2.25875735, 23.7222118]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1.00000012]
+    CameraComponent:
+      ProjectionType: 0
+      OrthoGraphicSize: 10
+      OrthoGraphicNear: -100
+      OrthoGraphicFar: 100
+      PerspectiveFov: 0.92956233
+      PerspectiveNear: 0.00999999978
+      PerspectiveFar: 1000
+      IsMain: true
+      FixedAspectRatio: false
+  - EntityID: 1
+    TagComponent:
+      Tag: Player
+    TransformComponent:
+      Position: [12.3683739, 3.79653502, 0.00417327881]
+      Rotation: [0, -0, -167.236755]
+      Scale: [0.999969363, 0.999969363, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TexturePath: assets\Editor\PlayButton.png
+      TilingFactor: 1
+    RigidBody2DComponent:
+      RigidBody2DType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Size: [0.5, 0.5]
+      Offset: [0, 0]
+      Density: 1
+      Friction: 0.519999981
+      Restitution: 0.5
+      RestitutionThreshold: 0.5
+  - EntityID: 9510435167994540964
+    TagComponent:
+      Tag: Platform
+    TransformComponent:
+      Position: [0.50882864, -12.0016565, 0]
+      Rotation: [0, -0, 0]
+      Scale: [34.2254715, 1.70449102, 1]
+    SpriteRendererComponent:
+      Color: [0.0906281471, 0.0717284158, 0.922222197, 1]
+      TilingFactor: 1
+    RigidBody2DComponent:
+      RigidBody2DType: Static
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Size: [0.5, 0.5]
+      Offset: [0, 0]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.5
+      RestitutionThreshold: 0.5
+  - EntityID: 17569860505381379545
+    TagComponent:
+      Tag: Player
+    TransformComponent:
+      Position: [10.1610785, 2.10990047, 0.00511932373]
+      Rotation: [0, -0, -167.236755]
+      Scale: [0.999969363, 0.999969363, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TexturePath: assets\Editor\PauseButton.png
+      TilingFactor: 1
+    RigidBody2DComponent:
+      RigidBody2DType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Size: [0.5, 0.5]
+      Offset: [0, 0]
+      Density: 1
+      Friction: 0.519999981
+      Restitution: 0.5
+      RestitutionThreshold: 0.5
+  - EntityID: 18391567744361814025
+    TagComponent:
+      Tag: Circle
+    TransformComponent:
+      Position: [3.94961739, 5.83382511, 0]
+      Rotation: [0, -0, 0]
+      Scale: [2.40999985, 2.40999985, 2.40999985]
+    CircleRendererComponent:
+      Color: [1, 0.399999976, 0, 1]
+      Fade: 0.00499999989
+      Thickness: 0.141000003
+    RigidBody2DComponent:
+      RigidBody2DType: Dynamic
+      FixedRotation: false
+    CircleCollider2DComponent:
+      Offset: [0, 0]
+      Raduis: 0.5
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.5
+      RestitutionThreshold: 0.5
